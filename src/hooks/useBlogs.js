@@ -1,5 +1,5 @@
-import { useEffect } from 'react';
-import { useState } from 'react';
+
+import { useEffect, useState } from 'react';
 import { fetchBlogs } from '../services/fetchBlogs.js';
 
 export function useBlogs() {
